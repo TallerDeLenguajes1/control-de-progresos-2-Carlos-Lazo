@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
-      "projectName": "Juego",
-      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
+      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectName": "ConsoleApp2",
+      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj",
       "packagesPath": "C:\\Users\\Mostrador4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\obj\\",
+      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mostrador4\\AppData\\Roaming\\NuGet\\NuGet.Config",

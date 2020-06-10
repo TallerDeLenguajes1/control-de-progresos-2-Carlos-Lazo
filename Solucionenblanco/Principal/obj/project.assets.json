@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Juego/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Juego.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Juego.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Juego/1.0.0": {
+      "type": "project",
+      "path": "../Personaje/Juego.csproj",
+      "msbuildProject": "../Personaje/Juego.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Juego >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mostrador4\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
-      "projectName": "Juego",
-      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
+      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Principal\\Principal.csproj",
+      "projectName": "Principal",
+      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Principal\\Principal.csproj",
       "packagesPath": "C:\\Users\\Mostrador4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\obj\\",
+      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Principal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mostrador4\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj": {
+              "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ConsoleApp2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ConsoleApp2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ConsoleApp2/1.0.0": {
+      "type": "project",
+      "path": "../ConsoleApp2/ConsoleApp2.csproj",
+      "msbuildProject": "../ConsoleApp2/ConsoleApp2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ConsoleApp2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Mostrador4\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
-      "projectName": "Juego",
-      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\Juego.csproj",
+      "projectUniqueName": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Mostrador4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\Solucionenblanco\\Personaje\\obj\\",
+      "outputPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mostrador4\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,7 +51,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj": {
+              "projectPath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

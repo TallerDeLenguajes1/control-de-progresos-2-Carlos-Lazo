@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nq8DRjvol6Y6XsY62F6aAIfUkfQp9zrkZ1qA9xSn1VLdrge9zOBaWU34YFutCnt8E2eyC9HcKKNgmF3ZazpW1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mostrador4\\Documents\\TallerI\\Ejercicios\\ControlProgreso\\ConsoleApp1\\ConsoleApp2\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mostrador4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
